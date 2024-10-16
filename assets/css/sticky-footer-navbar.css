@@ -1,0 +1,140 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.empty-error{
+  display: none;
+}
+
+.banner{
+  display:flex;
+  flex-direction: row;
+  background-color: #b4bbc366;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+
+.banner-title{
+  font-size: 2.6rem;
+  font-weight: 600;
+  padding: 65px;
+}
+
+.banner-title-green{
+  color: #448c74;
+}
+
+.main-content{
+  display: flex;
+}
+.main-content-title{
+  margin-top: 30px;
+}
+
+.main-content-title>h1{
+  font-weight: 600;
+}
+.main-content-title>p{
+  font-size: 25px;
+  font-weight: 350;
+  color: #7b818b;
+}
+
+
+.form-container h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+.form-container{
+  /* padding-top: 25px; */
+  margin: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* font-size: 18px; */
+  font-weight: 600;
+}
+/* form elements styling */
+.contact-us-form{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.message-box{
+  grid-column: 1/3;
+}
+
+ #message-input{
+   height: 150px;
+ }
+.input{
+  box-sizing: border-box;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+
+.form-item-label{
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.form-item-input{
+  width: 100%;
+  padding: 6px;
+  border: #f1f1f1 solid 2px;
+  border-radius: 5px;
+}
+
+.form-item-button{
+  margin-top: 12px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: white solid 1px;
+  background-color: #448c74;
+  color: white;
+  font-size: 1.2em;
+}
+
+.form-item-button:hover{
+  background-color: #035cd2;
+}
+
+.home-title{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.blue{
+color:  #3f7fca;
+}
+.home-discription{
+    color: #7b818b;
+}
+.home-main{
+  display: flex;
+  padding-top: 30px;
+}
+
+.main-title{
+  margin-top: 60px;
+}
+.corosal{
+  margin-left: 25px;
+  padding: 90px;
+  background-color: #f1f7ff;
+  border-radius: 25px;
+}
+
+.btn{
+  border-radius: 12px;
+  padding: 12px 17px;
+}
+
+.description{
+  margin-left: 25px;
+  padding-top: 90px;
+  margin-bottom: 50px;
+}

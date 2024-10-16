@@ -1,0 +1,10 @@
+.accordion{
+    align-content: right;
+    display: inline-flexbox;
+}
+#faq-content{
+    
+}
+#faq-img{
+    height: 10%;
+}
